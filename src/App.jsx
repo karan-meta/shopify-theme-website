@@ -1,7 +1,11 @@
 import "./App.css";
 import bgImg from "./assets/pics/homepage_hero_shopify.webp";
-import profileOne from "./assets/pics/magnifying_glass.png";
-import profileTwo from "./assets/pics/shopping_bag.png";
+import glass from "./assets/pics/magnifying_glass.png";
+import bag from "./assets/pics/shopping_bag.png";
+import jewel from "src\assets\pics\short_jewel_image.avif";
+import broadcast from "src\assets\pics\Broadcast_Jewelry.webp";
+import statement from "src\assets\pics\modern_statement.webp";
+import order from "src\assets\pics\made_to_order.webp";
 
 function App() {
   return (
@@ -41,8 +45,8 @@ function App() {
             </div>
             <div className="flex space-x-4">
               <i className="fa-regular fa-circle-user text-1xl text-white"></i>
-              <img src={profileOne} className="invert brightness-[200%] h-5"></img>
-              <img src={profileTwo} className="invert h-5"></img>
+              <img src={glass} className="invert brightness-[200%] h-5"></img>
+              <img src={bag} className="invert h-5"></img>
             </div>
           </div>
           <div className="relative w-fit top-60 left-10 flex flex-col space-y-6">
@@ -59,25 +63,25 @@ function App() {
         </div>
         <div className="flex justify-center w-full pt-20 pb-20">
           <p className="text-3xl font-bold">
-            SHOP OUR MODERN <img src="src\assets\pics\short_jewel_image.avif" className="inline-block h-20"></img> HEIRLOOMS , BESTSELLING <br></br>FINE JWELERY <img src="src\assets\pics\short_ring_image.avif" className="inline-block h-20"></img> AND ELEGANT <img src="src\assets\pics\short_necklace.avif" className="inline-block h-20"></img> TREASURES.
+            SHOP OUR MODERN <img src={jewel} className="inline-block h-20"></img> HEIRLOOMS , BESTSELLING <br></br>FINE JWELERY <img src="src\assets\pics\short_ring_image.avif" className="inline-block h-20"></img> AND ELEGANT <img src="src\assets\pics\short_necklace.avif" className="inline-block h-20"></img> TREASURES.
           </p>
        
         </div>
         <div className="flex justify-around">
           <div className="w-80 space-y-4">
-            <img src="src\assets\pics\Broadcast_Jewelry.webp" className="h-100"></img>
+            <img src={broadcast} className="h-100"></img>
             <p className="font-bold">THE ESSENTIALS COLLECTION</p>
             <p>Our signature pieces designed to be worn everyday with subtle details in contemporary shapes.</p>
             <p>SHOP CLASSICS <i class="fa-solid fa-arrow-right"></i></p>
           </div>
           <div className="w-80 space-y-4">
-            <img src="src\assets\pics\modern_statement.webp" className="h-100"></img>
+            <img src={statement} className="h-100"></img>
              <p className="font-bold">MODERN STATEMENT</p>
             <p>Timeless and wearable earrings with a modern twist that add a touch of style to any outfit.</p>
             <p>SHOP EARINGS <i class="fa-solid fa-arrow-right"></i></p>
           </div>
           <div className="w-80 space-y-4">
-            <img src="src\assets\pics\made_to_order.webp" className="h-100"></img>
+            <img src={order} className="h-100"></img>
              <p className="font-bold">MADE-TO-ORDER JEWELERY</p>
             <p>Handmade pieces that are carefully crafted to ensure that you'll love for a lifetime.</p>
             <p>SHOP NOW <i class="fa-solid fa-arrow-right"></i></p>
