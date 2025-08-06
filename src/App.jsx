@@ -6,6 +6,8 @@ import jewel from "./assets/pics/short_jewel_image.avif";
 import broadcast from "./assets/pics/Broadcast_Jewelry.webp";
 import statement from "./assets/pics/modern_statement.webp";
 import order from "./assets/pics/made_to_order.webp";
+import ring from "./assets/pics/short_ring_image.avif";
+import necklace from "./assets/pics/short_necklace.avif";
 
 function App() {
   return (
@@ -63,7 +65,7 @@ function App() {
         </div>
         <div className="flex justify-center w-full pt-20 pb-20">
           <p className="text-3xl font-bold">
-            SHOP OUR MODERN <img src={jewel} className="inline-block h-20"></img> HEIRLOOMS , BESTSELLING <br></br>FINE JWELERY <img src="src\assets\pics\short_ring_image.avif" className="inline-block h-20"></img> AND ELEGANT <img src="src\assets\pics\short_necklace.avif" className="inline-block h-20"></img> TREASURES.
+            SHOP OUR MODERN <img src={jewel} className="inline-block h-20"></img> HEIRLOOMS , BESTSELLING <br></br>FINE JWELERY <img src={ring} className="inline-block h-20"></img> AND ELEGANT <img src={necklace} className="inline-block h-20"></img> TREASURES.
           </p>
        
         </div>
