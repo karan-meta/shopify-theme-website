@@ -2,10 +2,10 @@ import "./App.css";
 import bgImg from "./assets/pics/homepage_hero_shopify.webp";
 import glass from "./assets/pics/magnifying_glass.png";
 import bag from "./assets/pics/shopping_bag.png";
-import jewel from "src\assets\pics\short_jewel_image.avif";
-import broadcast from "src\assets\pics\Broadcast_Jewelry.webp";
-import statement from "src\assets\pics\modern_statement.webp";
-import order from "src\assets\pics\made_to_order.webp";
+import jewel from "./assets/pics/short_jewel_image.avif";
+import broadcast from "./assets/pics/Broadcast_Jewelry.webp";
+import statement from "./assets/pics/modern_statement.webp";
+import order from "./assets/pics/made_to_order.webp";
 
 function App() {
   return (
