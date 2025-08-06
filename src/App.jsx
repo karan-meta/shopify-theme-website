@@ -1,5 +1,7 @@
 import "./App.css";
 import bgImg from "./assets/pics/homepage_hero_shopify.webp";
+import profileOne from "./assets/pics/magifying_glass.png";
+import profileTwo from "./assets/pics/shopping_bag.png";
 
 function App() {
   return (
@@ -39,8 +41,8 @@ function App() {
             </div>
             <div className="flex space-x-4">
               <i className="fa-regular fa-circle-user text-1xl text-white"></i>
-              <img src="./src/assets/pics/magnifying_glass.png " className="invert brightness-[200%] h-5"></img>
-              <img src="./src/assets/pics/shopping_bag.png" className="invert h-5"></img>
+              <img src={profileOne} className="invert brightness-[200%] h-5"></img>
+              <img src={profileTwo} className="invert h-5"></img>
             </div>
           </div>
           <div className="relative w-fit top-60 left-10 flex flex-col space-y-6">
