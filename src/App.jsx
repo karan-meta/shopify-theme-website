@@ -1,6 +1,6 @@
 import "./App.css";
 import bgImg from "./assets/pics/homepage_hero_shopify.webp";
-import profileOne from "./assets/pics/magifying_glass.png";
+import profileOne from "./assets/pics/magnifying_glass.png";
 import profileTwo from "./assets/pics/shopping_bag.png";
 
 function App() {
