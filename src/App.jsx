@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import bgImg from "./assets/pics/homepage_hero_shopify.webp";
 
@@ -10,7 +7,7 @@ function App() {
       <div>
         <div className="relative w-full h-screen">
           <img
-            src= bgImg
+            src= {bgImg}
             alt="background"
             className="absolute inset-0 w-full h-full object-cover -z-10"
           ></img>
