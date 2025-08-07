@@ -1,5 +1,5 @@
 import React from 'react'
-import "../components/scrollingHeadlineTwo.css";
+import "./scrollingHeadlineTwo.css";
 
 const ScrollingHeadlineTwo = () => {
      const content = (
