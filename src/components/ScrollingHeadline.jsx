@@ -2,7 +2,7 @@ import React from "react";
 import allure from "../assets/pics/allure_logo.avif";
 import marie from "../assets/pics/marie_claire_logo.avif";
 import vogue from "../assets/pics/vogue_logo.avif";
-import "../components/scrollingHeadline.css";
+import "../scrollingHeadline.css";
 
 const ScrollingHeadline = () => {
   const content = (
