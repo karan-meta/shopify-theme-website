@@ -12,6 +12,9 @@ import ProductCollection from "./components/ProductCollection";
 import ScrollingHeadline from "./components/ScrollingHeadline";
 import Bestseller from "./components/Bestseller";
 import ScrollingHeadlineTwo from "./components/ScrollingHeadlineTwo";
+import ExceptionalPieces from "./components/ExceptionalPieces";
+import QuickAdd from "./components/QuickAdd";
+import Ethical from "./components/Ethical";
 
 function App() {
   return (
@@ -38,6 +41,9 @@ function App() {
         <ScrollingHeadline />
         <Bestseller/>
         <ScrollingHeadlineTwo/>
+        {/* <ExceptionalPieces/> */}
+        <QuickAdd/>
+        {/* <Ethical/> */}
       </div>
     </>
   );
