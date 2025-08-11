@@ -15,7 +15,7 @@ import ScrollingHeadlineTwo from "./components/ScrollingHeadlineTwo";
 import ExceptionalPieces from "./components/ExceptionalPieces";
 import QuickAdd from "./components/QuickAdd";
 import Ethical from "./components/Ethical";
-import HoverButton from "./components/hoverButton";
+import HoverButton from "./components/HoverButton";
 import ShopTheLook from "./components/ShopTheLook";
 
 function App() {
